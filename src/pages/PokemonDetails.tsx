@@ -4,7 +4,7 @@ import "../style.css";
 import StatBar from "../components/StatBar";
 
 export default function PokemonDetails() {
-  const [params, setParams] = useSearchParams();
+  const [params] = useSearchParams();
   const name = params.get("name");
 
   // const name = params.name;
